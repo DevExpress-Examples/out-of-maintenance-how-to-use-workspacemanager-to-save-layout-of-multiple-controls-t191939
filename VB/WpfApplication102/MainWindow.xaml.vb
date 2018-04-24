@@ -27,7 +27,10 @@ Namespace WpfApplication102
 
             Dim customers As New ObservableCollection(Of Customer)()
             For i As Integer = 1 To 29
-                customers.Add(New Customer() With {.ID = i, .Name = "Name" & i})
+                customers.Add(New Customer() With { _
+                    .ID = i, _
+                    .Name = "Name" & i _
+                })
             Next i
             gridControl1.ItemsSource = customers
 
