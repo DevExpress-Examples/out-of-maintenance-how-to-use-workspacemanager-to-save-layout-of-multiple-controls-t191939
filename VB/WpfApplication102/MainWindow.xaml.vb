@@ -45,8 +45,8 @@ Namespace WpfApplication102
 
         Private Sub Button_Click_1(ByVal sender As Object, ByVal e As RoutedEventArgs)
             Dim workspaceManager As WorkspaceManager = TryCast(WorkspaceManager.GetWorkspaceManager(dockLayoutManager), WorkspaceManager)
-            workspaceManager.ApplyWorkspace("workspace1")
             workspaceManager.LoadWorkspace("workspace1", "layout.xml")
+            workspaceManager.ApplyWorkspace("workspace1")
         End Sub
     End Class
 
