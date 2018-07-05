@@ -46,8 +46,8 @@ namespace WpfApplication102
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             WorkspaceManager workspaceManager = WorkspaceManager.GetWorkspaceManager(dockLayoutManager) as WorkspaceManager;
-            workspaceManager.ApplyWorkspace("workspace1");
             workspaceManager.LoadWorkspace("workspace1", "layout.xml");
+            workspaceManager.ApplyWorkspace("workspace1");
         }
     }
 
