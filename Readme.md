@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/WpfApplication102/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfApplication102/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/WpfApplication102/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/WpfApplication102/MainWindow.xaml))
+<!-- default file list end -->
 # How to use WorkspaceManager to save layout of multiple controls
 
 
